@@ -1,0 +1,93 @@
+.formBackgrnd{
+    
+    border: 1px solid #e6e2e2 ;
+    border-radius: 10px;
+    box-shadow: 4px 3px 7px -2px #666867;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.cstmHead{
+    background-color: #00639a;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 5px 0 5px 0;
+
+}
+
+.Cstmlblfrm{
+    text-align: left;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.frmCntrlEle{
+    position: relative;
+    padding: 0 0 15px 0;
+    margin-bottom: 5px;
+}
+
+.form-group{
+    padding: 0px 20px 0 20px;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+input[type="submit"]{
+    color: #00639a;
+    background-color: rgb(255, 255, 255);
+    border-color: #00639a;
+}
+
+input[type="submit"]:hover{
+    background-color: #00649ad3;
+    color: #fff;
+}
+
+
+::placeholder{
+    font-size: 0.80rem;
+    padding: 0;
+}
+
+
+.frmCntrlEle.success input{
+    border-color: #00649ad0;
+}
+
+.frmCntrlEle.error input{
+    border-color: rgb(228, 35, 22);
+}
+
+.frmCntrlEle i {
+    position: absolute;
+    right: 8px;
+    top: 45px;
+    visibility: hidden;
+    
+}
+
+.frmCntrlEle small{
+    color: #ff3b3b;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.frmCntrlEle.error small{
+    visibility: visible;
+}
+
+.frmCntrlEle.success i.fa-check-circle{
+    visibility: visible;
+    color: #006c00;
+}
+
+.frmCntrlEle.error i.fa-exclamation{
+    visibility: visible;
+    color: #ff3b3b;
+}
